@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		EA4D2F961D47160800E79716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D2F951D47160800E79716 /* main.m */; };
 		EA4D2F991D47160800E79716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D2F981D47160800E79716 /* AppDelegate.m */; };
-		EA4D2F9C1D47160800E79716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D2F9B1D47160800E79716 /* ViewController.m */; };
-		EA4D2F9F1D47160900E79716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2F9D1D47160900E79716 /* Main.storyboard */; };
 		EA4D2FA21D47160900E79716 /* MultiplyTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA4D2FA01D47160900E79716 /* MultiplyTable.xcdatamodeld */; };
 		EA4D2FA41D47160900E79716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2FA31D47160900E79716 /* Assets.xcassets */; };
 		EA4D2FA71D47160900E79716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2FA51D47160900E79716 /* LaunchScreen.storyboard */; };
 		EA4D2FB21D47160A00E79716 /* MultiplyTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D2FB11D47160A00E79716 /* MultiplyTableTests.m */; };
 		EA4D2FBD1D47160A00E79716 /* MultiplyTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D2FBC1D47160A00E79716 /* MultiplyTableUITests.m */; };
+		EA4D2FCD1D471A4100E79716 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D2FCB1D471A4100E79716 /* TableViewController.m */; };
+		EA4D2FCE1D471A4100E79716 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2FCC1D471A4100E79716 /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +40,6 @@
 		EA4D2F951D47160800E79716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA4D2F971D47160800E79716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA4D2F981D47160800E79716 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA4D2F9A1D47160800E79716 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA4D2F9B1D47160800E79716 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EA4D2F9E1D47160900E79716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA4D2FA11D47160900E79716 /* MultiplyTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiplyTable.xcdatamodel; sourceTree = "<group>"; };
 		EA4D2FA31D47160900E79716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4D2FA61D47160900E79716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +50,9 @@
 		EA4D2FB81D47160A00E79716 /* MultiplyTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplyTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4D2FBC1D47160A00E79716 /* MultiplyTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyTableUITests.m; sourceTree = "<group>"; };
 		EA4D2FBE1D47160A00E79716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4D2FCA1D471A4100E79716 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EA4D2FCB1D471A4100E79716 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EA4D2FCC1D471A4100E79716 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +105,9 @@
 			children = (
 				EA4D2F971D47160800E79716 /* AppDelegate.h */,
 				EA4D2F981D47160800E79716 /* AppDelegate.m */,
-				EA4D2F9A1D47160800E79716 /* ViewController.h */,
-				EA4D2F9B1D47160800E79716 /* ViewController.m */,
-				EA4D2F9D1D47160900E79716 /* Main.storyboard */,
+				EA4D2FCA1D471A4100E79716 /* TableViewController.h */,
+				EA4D2FCB1D471A4100E79716 /* TableViewController.m */,
+				EA4D2FCC1D471A4100E79716 /* TableViewController.xib */,
 				EA4D2FA31D47160900E79716 /* Assets.xcassets */,
 				EA4D2FA51D47160900E79716 /* LaunchScreen.storyboard */,
 				EA4D2FA81D47160900E79716 /* Info.plist */,
@@ -249,9 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4D2FCE1D471A4100E79716 /* TableViewController.xib in Resources */,
 				EA4D2FA71D47160900E79716 /* LaunchScreen.storyboard in Resources */,
 				EA4D2FA41D47160900E79716 /* Assets.xcassets in Resources */,
-				EA4D2F9F1D47160900E79716 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4D2F9C1D47160800E79716 /* ViewController.m in Sources */,
 				EA4D2F991D47160800E79716 /* AppDelegate.m in Sources */,
 				EA4D2FA21D47160900E79716 /* MultiplyTable.xcdatamodeld in Sources */,
 				EA4D2F961D47160800E79716 /* main.m in Sources */,
+				EA4D2FCD1D471A4100E79716 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +315,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA4D2F9D1D47160900E79716 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA4D2F9E1D47160900E79716 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA4D2FA51D47160900E79716 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
